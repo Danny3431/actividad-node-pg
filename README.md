@@ -23,8 +23,12 @@ DB_NAME=aquí_va_el_nombre_de_tu_base_de_datos
 - `DB_PASSWORD` → es la contraseña que pusiste cuando instalaste PostgreSQL en tu equipo
 - `DB_NAME` → es el nombre de la base de datos que creaste en pgAdmin (ej: `modulo7`)
 - El resto de valores (`localhost`, `5432`, `postgres`) generalmente no cambian en una instalación local
-
+ 
 > ⚠️ Si no tienes la base de datos creada, ábrela en pgAdmin → click derecho en **Bases de datos** → **Crear** → **Base de datos** → escribe el nombre → **Guardar**
+ 
+## 📦 Origen de los datos
+ 
+La tabla `finanzas_personales` utilizada en esta actividad fue creada originalmente en el **Módulo 5, Lección 2, Ejercicio 3 — Finanzas Personales**. El script SQL original Con la solución de ese ejercicio, se está incluido en la carpeta `scripts/` para que puedas revisarlo, ejecutarlo o compararlo con lo que ya tienes en tu base de datos. En caso contrario, el servidor la creará y poblará con los datos originales del ejercicio.
 
 ## 🗄️ Crear las tablas en PostgreSQL
 
